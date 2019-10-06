@@ -6,18 +6,18 @@ Please read further to find a bit of introduction to each project. As I mentione
 
 ## ESP-Switch
 ### Little history..
-Please jump to the next sub-section if you do not want to read unnecessary information
+Please jump to the next sub-section if you do not want to read unnecessary rambles.
 
 The project started when all the Sonoff(and other ESP8266 smart switches for that matter) integrations I could find fall short of my requirement. Most of the custom firmware was designed for a borader appeal, which is great for people who like to tinker with things but not necessariliy the best implementation for SmartThings integration.
 
-After spending countless hours trying to workaround issues with existing tool, I finally threw in the towel and decided to go full custom.
+After spending countless hours trying to workaround issues with existing tools, I finally threw in the towel and decided to go full custom.
 
 Fortunately, I am a Software Engineer myself and had done some robotics in my early adulthood as a hobby(for example, I was making 0-60mph timer for fun). Bringing back some of those memories after inhale soldering smoke was the easy part.
 
 The goal was to use a custom firmware for a Sonoff device but I did not want to do anything too technical from the surface. For example, a lot of other fireware integration asks things like static IP address, manual device addition, etc. And even after all that, the whole status update is very clunky and often making things too slow.
 
 ### What it does
-If you open the smart app after it is published, it will automatically search local Sonoff devices that have the custom firmware you can find here. Once discovered, it will list them on the screen for a user to pick devices to install. At the end of the process, new devices are created as a switch device.
+If you open the smart app after it is published, it will automatically search local Sonoff devices that have the custom firmware you can find here. Once discovered, it will list them on the screen for a user to pick devices to install. At the end of the process, new devices are created as switch devices.
 These switch devices will have generic functionalities like On and Off. But also gets updated when the switch status is changed at the device side. Unlike polling status every so often(which also causes the hub to slow down somewhat after adding many switches), the status will be updated through SmartApp's API endpoint, which means that the status will be pushed from the device.
 Meanwhile, SmartApp will run the discovery in the scheduled frequency to find if there are devices that has different IP address from when it was added. If such a device is detected, it will update the device record in SmartThings and they are synced once again.
 
