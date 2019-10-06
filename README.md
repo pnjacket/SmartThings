@@ -39,7 +39,7 @@ There are three pieces of software that needs to be installed in different locat
 2) SmartThings Device handler
 3) Arduino Sketch for ESP8266
 
-- Go to SmartThings IDE site. (https://graph.api.smartthings.com/) Note that the site url may vary depending on your region.
+- Go to SmartThings IDE site. (https://account.smartthings.com)
 - Open My SmartApps
 - New SmartApp at the upper right hand corner
 - Select From Code tab and leave the browser as it is
