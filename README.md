@@ -82,6 +82,6 @@ https://www.youtube.com/watch?v=2DL8FlrBTDs This is what I have used when I star
 - Enjoy!
 
 ### Future plans
-As I mentioned earlier, this whole thing was developed to satisfy my requirements. Source will be updated as I needed but if changes that I need requires too much of custom code that does not apply to others, I will fork my code and work on that branch.
+As I mentioned earlier, this whole thing was developed to satisfy my requirements. Source will be updated as I need but if changes that I need requires too much of custom code that does not apply to others, I will fork my code and work on that branch.
 If you want to contribute to the project, please do so by putting pull request.
 
