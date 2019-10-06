@@ -82,6 +82,7 @@ https://www.youtube.com/watch?v=2DL8FlrBTDs This is what I have used when I star
 - Enjoy!
 
 ### Future plans
-As I mentioned earlier, this whole thing was developed to satisfy my requirements. Source will be updated as I need but if changes that I need requires too much of custom code that does not apply to others, I will fork my code and work on that branch.
+As I mentioned earlier, this whole thing was developed to satisfy my requirements. Source will be updated as I need but if changes that I need requires too much of custom code that does not apply to others, I will fork my code and work on that branch. One thing that I will try for sure is to use this for a Tuya smart life compatible device. I hate SmartThings/Smart Life/IFTTT integration as it is way too slow and often not working at all.
 If you want to contribute to the project, please do so by putting pull request.
-
+If you find a but, please report. I may or may not respond but it is a good record when I eventually notice it.
+If enough people are using this and get confused too much about how to setup, I may create a YouTube video at one point.. time will tell...
